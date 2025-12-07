@@ -16,3 +16,14 @@ try {
     // Զգուշացում՝ իրական արտադրական կայքում մի ցուցադրեք ամբողջ սխալի տեքստը
     exit('Database connection failed: ' . $e->getMessage());
 }
+
+
+
+Իսկ օրինակ՝
+
+եթե քո սերվերում օգտվողը root է՝ առանց գաղտնաբառի, պետք է լինի՝
+
+$DB_HOST = 'localhost';
+$DB_NAME = 'jewelry_db';
+$DB_USER = 'root';
+$DB_PASS = '';
